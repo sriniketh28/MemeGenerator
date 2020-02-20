@@ -1,0 +1,135 @@
+
+body{
+  margin:0px;
+}
+.headimg{
+  height:100px;
+  width:100px;
+  margin-left: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.headback{
+  background-image: linear-gradient(to right,rgb(0,0,0,1),rgb(0,0,0,0.75));
+  color:white;
+  display: flex;
+}
+
+.headtext{
+   position: absolute;
+   margin-left: 200px;
+   margin-top: 10px;
+   font-family: monospace;
+   font-size: 70px;
+}
+
+.textf{
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.btn{
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+
+.mform{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+.meme{
+  position: relative;
+  text-align: center;
+  width:550px;
+}
+.top {
+  position: absolute;
+  top: 0;
+  text-transform: uppercase;
+  padding-left: 20px;
+  align-content: center;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  font-size:40px;
+  color: white;
+  text-shadow:
+      3px 3px 0 #000,
+    -3px -3px 0 #000,
+     3px -3px 0 #000,
+     -3px 3px 0 #000,
+      3px 3px 0 #000;
+  font-family: impact;
+  word-spacing: 5px;
+}
+.bottom{
+  position: absolute;
+  bottom: 4px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding-left: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  font-size:40px;
+  color: white;
+  text-shadow:
+      3px 3px 0 #000,
+    -3px -3px 0 #000,
+     3px -3px 0 #000,
+     -3px 3px 0 #000,
+      3px 3px 0 #000;
+  font-family: impact;
+  word-spacing: 5px;
+}
+
+.footer
+{
+  background-color: black;
+  color: white;
+  font-family: impact;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  letter-spacing:1px;
+  word-spacing:5px;
+}
+
+.about{
+  position: absolute;
+  margin-left: 640px;
+  top: 174px;
+  font-family: sans-serif;
+}
+.aboutpara{
+  position: absolute;
+  margin-left: 640px;
+  margin-right: 15px;
+  text-align: justify;
+  top: 230px;
+  font-family: sans-serif;
+}
+.contact{
+  position: absolute;
+  margin-left: 640px;
+  top: 374px;
+  font-family: sans-serif;
+}
+.contactpara{
+  position: absolute;
+  margin-left: 640px;
+  margin-right: 15px;
+  text-align: justify;
+  top: 430px;
+  font-family: sans-serif;
+}
+.texth{
+  text-decoration: none;
+}
